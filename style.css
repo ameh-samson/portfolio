@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: #fff;
-  color: #010180;
+  background-color: #151145;
+  color: #fff;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
   justify-content:space-between;
   align-items: center;
   z-index: 100;
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid #ff8000;
 }
 
 .logo {
@@ -102,44 +102,21 @@ header {
     animation-delay: .1s;
 }
 
-.btn1, .btn2{
+.btn{
     display: inline-block;
     margin-top: 20px;
     padding: 12px 28px;
     border-radius: 40px;
     font-size: 16px;
     color: white;
+    background: #ff8000;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600px;
     animation: slideTop 1s ease forwards;
     animation-delay: .1s;
-}
-
-.btn1{
-    background: #151145;
-    box-shadow: 0 0 10px #151145;
     transition: 0.5s;
 }
-
-.btn1:hover{
-    color: #151145;
-    background: transparent;
-    border: 1px solid #151145;
-}
-
-.btn2{
-    background: #ff8000;
-    box-shadow: 0 0 10px #ff8000;
-}
-
-.btn2:hover{
-    color: #151145;
-    background: transparent;
-    border: 1px solid #ff8000;
-}
-
-
 
 /*ANIMATION*/
 @keyframes slideRight {
